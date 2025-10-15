@@ -11,9 +11,13 @@ header h1 {
 header p {
   text-align: center;
 }
+header nav {
+  top: 10px;
+  z-index: 1000;
+}
 header .nav {
   display: flex;
-  background-color: #ff7700;
+  background-color: rgba(255, 119, 0, 0.7);
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -24,6 +28,7 @@ header .nav ul {
   list-style: none;
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 header .nav ul button {
   padding: 10px 20px;
@@ -31,7 +36,7 @@ header .nav ul button {
   border: none;
   font-size: 16px;
   font-weight: 700;
-  background-color: #ff7700;
+  background-color: rgba(255, 119, 0, 0.4);
   color: white;
 }
 header .nav img {
